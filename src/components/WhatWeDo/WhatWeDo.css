@@ -1,0 +1,22 @@
+.wwd-wrapper {
+    position: relative;
+}
+
+.wwd-container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.wwd-head {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    
+}

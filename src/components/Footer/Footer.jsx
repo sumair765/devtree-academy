@@ -33,7 +33,7 @@ const Footer = () => {
 
                 <hr/>
 
-                <span className='copy'>Made with love by Sumair Qaisar</span>
+                <span className='copy'>Made with love by <a href='https://www.linkedin.com/in/sumairq/'>Sumair Qaisar</a></span>
             </div>
         </div>
     </div>

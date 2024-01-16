@@ -3,12 +3,13 @@ import React,{useState} from 'react';
 import './Navbar.css';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { RxCross2 } from 'react-icons/rx';
+import {motion, useMotionValueEvent, useScroll} from 'framer-motion';
 
 const Navbar = () => {
 
     const [mobileMenuOpened, setMobileMenuOpened] = useState(false)
   return (
-    <div className="n-wrapper">
+    <div className="n-wrapper sticky">
       {/* Desktop Version */}
       <div className="container">
         <div className="n-container">

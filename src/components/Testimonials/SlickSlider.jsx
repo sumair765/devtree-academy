@@ -19,23 +19,23 @@ const SlickSlider = () => {
                 settings: {
                     dots: true,
                     infinite: true,
-                    slideToShow: 3,
-                    slideToScroll: 3,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
                 },
             },
             {
                 breakpoint: 1000, 
                 settings: {
-                    slideToShow: 2,
-                    slideToScroll: 2,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     initialSlide: 2,
                 },
             },
             {
                 breakpoint: 768, 
                 settings: {
-                    slideToShow: 1,
-                    slideToScroll: 1,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                 },
             },
         ]

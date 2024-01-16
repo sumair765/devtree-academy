@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="n-container">
           {/* Left section */}
           <div className="n-logo">
-            <span>Product</span>
+            <span>Enterprisify Pro</span>
           </div>
           {/* Left section */}
           <div className="n-right">
@@ -42,7 +42,7 @@ const Navbar = () => {
                 <span>Testimonials</span>
               </Link>
             </div>
-            <div className="fund-button">Get Fund</div>
+            <div className="fund-button">Get Enterprisify Pro</div>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="nm-container">
         {/* Logo */}
 
-        <span>SPRODUCT</span>
+        <span>Enterprisify Pro</span>
 
         {/* Menu Icons */}
         {!mobileMenuOpened ? (

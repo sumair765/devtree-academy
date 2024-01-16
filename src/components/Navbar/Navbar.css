@@ -104,7 +104,7 @@
         height: calc(100vh - 3.8rem); 
     }
 
-    .nm-menu span {
+    .nm-menu a {
         margin-bottom: 2rem;
         padding-bottom: 1rem;
         border-bottom: 1px solid var(--border-color);

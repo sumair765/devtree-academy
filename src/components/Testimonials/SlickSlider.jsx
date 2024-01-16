@@ -15,7 +15,7 @@ const SlickSlider = () => {
         useCSS: true,
         responsive: [
             {
-                breakpoint: 1024, 
+                breakpoint: 1500, 
                 settings: {
                     dots: true,
                     infinite: true,
@@ -24,7 +24,7 @@ const SlickSlider = () => {
                 },
             },
             {
-                breakpoint: 1000, 
+                breakpoint: 1200, 
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,

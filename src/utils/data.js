@@ -116,3 +116,26 @@ export const whoWeInvest = [
         des: "Registered in France and Germany (initially) with appetite for international expansion",
     },
 ]
+
+export const  TestimonialsData = [
+    {
+        comment: "The best team I have ever worked with. They deliver on what they promise and the results go beyond all expectations. I recommend them!",
+        name: "Jim",
+        profession: "QA specialist, Rome"
+    },
+    {
+        comment: "Impeccable professionalism and seriousness. They made my E-commerce easier and more profitable by training my business staff. Very good performance of social campaigns and Google. I recommend them to everyone.",
+        name: "Donald",
+        profession: "Director, London"
+    },
+    {
+        comment: "My sales and billing from my parking lot have improved with a revival plan that worked on every detail. I congratulate the entire team for the great work done",
+        name: "Jennifer",
+        profession: "Manager, California"
+    },
+    {
+        comment: "Always precise and professional. They have increased my activity with enthusiasm and commitment by creating a unique and original website that managed to satisfy my tastes and those of my clients. Thanks to all of them",
+        name: "Marlene",
+        profession: "Founder, San Diego"
+    },
+]

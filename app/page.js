@@ -9,6 +9,7 @@ import OurDiff from '@/src/components/OurDiff/OurDiff'
 import {motion, useAnimation} from 'framer-motion';
 import HowItWorks from '@/src/components/HowItWorks/HowItWorks'
 import WhoWeInvest from '@/src/components/WhoWeInvest/WhoWeInvest'
+import Testimonials from '@/src/components/Testimonials/Testimonials'
 
 export default function Home() {
   const controls = useAnimation()
@@ -50,6 +51,8 @@ export default function Home() {
       >
       <WhoWeInvest />
       </motion.div>
+
+      <Testimonials/>
 
     </motion.div>
   )

@@ -61,7 +61,7 @@ const SlickSlider = () => {
                             {/* Lower Side */}
                             <div className='c-info'>
 
-                            <div className='c-avatar'>{comment.name[0]}</div>
+                            <div className='c-avatar'><Image src={comment.image} width={60} height={60}/></div>
                             <div className='c-person'>
                                 <span>{comment.name}</span>
                                 <span>{comment.profession}</span>

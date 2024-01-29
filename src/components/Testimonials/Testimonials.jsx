@@ -9,8 +9,7 @@ const Testimonials = () => {
             <div className='t-container'>
                 <div className='t-head'>
                     <span className='tag'>Testimonials</span>
-                    <span className='title'>Access Investment that complements Traditional Funding Options</span>
-                    <span className='des'> What customers say about</span>
+                    <span className='title'>Voices of Success: What Our Graduates Say</span>
                 </div>
             </div>
 

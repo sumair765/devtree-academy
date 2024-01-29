@@ -35,27 +35,27 @@ export const HeroData = [
 export const features = [
     {
         icon: "/features/Frame-0.png",
-        title: "3x monthly revenue",
+        title: "1 hour English proficiency test",
     },
     {
         icon: "/features/Frame-1.png",
-        title: "Flat fee of 8-16%",
+        title: "Evaluation of Collaboration skills",
     },
     {
         icon: "/features/Frame-2.png",
-        title: "Flexible repayments by revenue shares",
+        title: "Take home project for skills evaluation",
     },
     {
         icon: "/features/Frame-3.png",
-        title: "6-8 years repayment",
+        title: "Timezone,UTC-3 or UTC-5",
     },
     {
         icon: "/features/Frame-4.png",
-        title: "$15-150K seed investment",
+        title: "Career goals",
     },
     {
         icon: "/features/Frame-5.png",
-        title: "4% of revenue upto 4X cap",
+        title: "Tech Stack Assesment Results",
     },
 ]
 
@@ -63,79 +63,84 @@ export const features = [
 export const OurDiffFeatures = [
     {
         icon: "/OurDiff/Frame-0.png",
-        title: "Data Backup",
-        des: "A team of professionals, graphic experts, advertisers, IT and technicians guarantees indispensible support for all those who wish to benefit from new and modern markets.",
+        title: "Web Portal",
+        des: "A visually apealing and highly functional web dashboard to access curriculum and track your progress in the program."
     },
     {
         icon: "/OurDiff/Frame-1.png",
-        title: "flexible funding",
-        des: "Funding that flexes as revenue grows with transparent costs and does not require dilution, personal guarntees or pitch decks.",
+        title: "Exclusive Slack Channel Access",
+        des: "Communicate with other DevTree students and alumni. Get help when stuck.",
     },
     {
         icon: "/OurDiff/Frame-2.png",
-        title: "Value Growth",
-        des: "How a hypermarket giant achieved the impossible at speed and scale. As one of the largest hypermarket chains in the world.",
+        title: "Career Services",
+        des: "Each student is assigned a career coach that helps him navigate the job market and successfully negotiate job offers.",
     }
 ];
 
 export const hitFeatures = [
     {
         icon: "/howItWorks/Frame-0.png",
-        title: "Connect",
-        des: "Register and qualify for funding in less than 5 mins. Connect revenue and marketing platforms you already use.", 
+        title: "Get Accepted to a programe",
+        des: "Go through the screening process and get accepted to one of our programes.", 
 
         
     },
     {
         icon: "/howItWorks/Frame-1.png",
-        title: "Get Funds",
-        des: "Get a term sheet with upto 3 funding offers. Select option that best suits and complete onboarding to recieive funds in days.", 
+        title: "Study free of cost",
+        des: "Go through the 6 month core programe with 3 months of job search period without paying a dime.", 
     },
     {
         icon: "/howItWorks/Frame-2.png",
-        title: "Support Growth",
-        des: "Access curated feed of actionable insights and on demand execution expertise. Auto qualify for follow on funding as you grow.", 
+        title: "Only Pay when you land a job",
+        des: "You are only required pay the tuition fee when you land a job in it field, and your salary is above 1000$. You will pay 15% of every salary until a total sum of $15k are paid.", 
     },
 ]
 
 export const whoWeInvest = [
     {
-        title: "Innovation Business Model",
-        des: "Innovation business model e.g. SaaS, subscription, D2C, apps",
+        title: "Silicon Valley Innovators",
+        des: "Explore how our alumni are leading tech breakthroughs in the heart of innovation.",
     },
     {
-        title: "Revenue Increasing",
-        des: "Revenue Increase for 6 months, > $1k in monthly recurring revenue",
+        title: "Quantitative Minds on Wall Street",
+        des: "Discover the impact of our graduates in applying coding skills to finance and analytics.",
     },
     {
-        title: "Growth Level",
-        des: "Industy expertise: Fintech, Health, Deep tech, B2B software",
+        title: "E-commerce Tech Trailblazers",
+        des: "Follow our graduates shaping the digital future of online retail through coding excellence.",
     },
     {
-        title: "International Expension",
-        des: "Registered in France and Germany (initially) with appetite for international expansion",
+        title: "EdTech Software Pioneers",
+        des: "See how our alumni revolutionize education through software engineering in EdTech.",
     },
 ]
 
 export const  TestimonialsData = [
     {
-        comment: "The best team I have ever worked with. They deliver on what they promise and the results go beyond all expectations. I recommend them!",
-        name: "Jim",
-        profession: "QA specialist, Rome"
+        comment: "Joining DevTree academy was a career game-changer. The comprehensive curriculum and supportive community empowered me to transition seamlessly into the tech industry. Now, I'm proud to be a software engineer at a cutting-edge startup.",
+        name: "Jim L.",
+        profession: "Software Engineer, Hong Kong",
+        image: "/jim.jpg"
     },
     {
-        comment: "Impeccable professionalism and seriousness. They made my E-commerce easier and more profitable by training my business staff. Very good performance of social campaigns and Google. I recommend them to everyone.",
-        name: "Donald",
-        profession: "Director, London"
+        comment: "The guidance and hands-on projects at DevTree honed my design skills. I'm now a confident UX/UI designer, thanks to the real-world projects and mentorship. This program truly transformed my creative passion into a thriving profession.",
+        name: "Alex M.",
+        profession: "UX/UI Designer, London",
+        image: "/alex.jpg"
+
     },
     {
-        comment: "My sales and billing from my parking lot have improved with a revival plan that worked on every detail. I congratulate the entire team for the great work done",
-        name: "Jennifer",
-        profession: "Manager, California"
+        comment: "The full-stack program not only expanded my coding expertise but also taught me the art of problem-solving. I now thrive in a dynamic tech environment, contributing to projects from front to back end. This bootcamp was the best investment in my career.",
+        name: "Jennifer P.",
+        profession: "Full-Stack Developer, California",
+        image: "/jennifer.jpg"
     },
     {
-        comment: "Always precise and professional. They have increased my activity with enthusiasm and commitment by creating a unique and original website that managed to satisfy my tastes and those of my clients. Thanks to all of them",
-        name: "Marlene",
-        profession: "Founder, San Diego"
+        comment: "DevTree propelled my backend development skills to new heights. The immersive curriculum and practical projects truly deepened my understanding of server-side technologies.",
+        name: "Michael S.",
+        profession: "Backend Developer, San Diego",
+        image: "/michael.jpg"
     },
 ]

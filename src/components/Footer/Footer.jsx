@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='f-wrapper'>
         <div className='container'>
             <div className='f-container'>
-                <span className='title'>Get Enterprisify Pro Today !</span>
+                <span className='title'>Join DevTree Today !</span>
                 <EmailBox />
 
                 <hr/>

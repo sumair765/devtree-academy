@@ -15,7 +15,7 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
 .slick-slider {
@@ -66,7 +66,6 @@
 }
 
 .c-avatar {
-    background-color: #7e96b5;
     color: #fff;
     font-size: 1.1rem;
     border-radius: 100%;
@@ -75,6 +74,10 @@
     justify-content: center;
     width: 3rem;
     height: 3rem;
+}
+
+.c-avatar img {
+border-radius: 100%;
 }
 
 .c-person {

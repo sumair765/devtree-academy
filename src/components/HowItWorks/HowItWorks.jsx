@@ -30,13 +30,13 @@ const HowItWorks = () => {
                 initial="offscreen"
                 whileInView={'onscreen'}
                 variants={tagVariants}
-                className='tag'>How it Works
+                className='tag'>How our payment model works.
                 </motion.span>
                 <motion.span
                   initial="offscreen"
                   whileInView={'onscreen'}
                   variants={titleVariants}
-                className='title'>Unlocking the Potential Along with Digital marketing</motion.span>
+                className='title'>Graduate first, pay later !</motion.span>
             </div>
 
             <div className='hiw-features'>

@@ -12,11 +12,11 @@ const WhoWeInvest = () => {
                 {/* Left Section */}
                 <div className='wwi-left'>
                     <div className='head'>
-                        <motion.span
+                        {/* <motion.span
                            initial="offscreen"
                            whileInView={'onscreen'}
                            variants={tagVariants}
-                        className='tag'>Who we invest in</motion.span>
+                        className='tag'>What our graduates do after finishing</motion.span> */}
 
                         <motion.span
                            initial="offscreen"
@@ -24,8 +24,8 @@ const WhoWeInvest = () => {
                            variants={titleVariants}
                         className='title'>
                             {" "}
-                            Innovation business
-                            <br/> with early reaction
+                            Alumni Thriving Across Diverse Industries.
+                             
                         </motion.span>
                     </div>
 

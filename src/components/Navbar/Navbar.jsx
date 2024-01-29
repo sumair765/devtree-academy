@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="n-container">
           {/* Left section */}
           <div className="n-logo">
-            <span>Enterprisify Pro</span>
+            <span>DevTree Academy</span>
           </div>
           {/* Left section */}
           <div className="n-right">
@@ -36,13 +36,13 @@ const Navbar = () => {
                 <span>How it works</span>
               </Link>
               <Link to="wwi-wrapper" spy smooth>
-                <span>Who we invest in</span>
+                <span>Admission Criteria</span>
               </Link>
               <Link to="t-wrapper" spy smooth offset={100}>
                 <span>Testimonials</span>
               </Link>
             </div>
-            <div className="fund-button">Get Enterprisify Pro</div>
+            <div className="fund-button">Join DevTree</div>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="nm-container">
         {/* Logo */}
 
-        <span>Enterprisify Pro</span>
+        <span>DevTree Academy</span>
 
         {/* Menu Icons */}
         {!mobileMenuOpened ? (
@@ -89,7 +89,7 @@ const Navbar = () => {
             spy
             smooth
           >
-            <span>Who we invest in</span>
+            <span>Admission Criteria</span>
           </Link>
 
           <Link

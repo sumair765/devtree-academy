@@ -19,7 +19,7 @@ const WhatWeDo = () => {
               variants={tagVariants}
               className="tag"
             >
-              What We Do
+              Why Join DevTree Academy
             </motion.span>
 
             <motion.span
@@ -29,16 +29,28 @@ const WhatWeDo = () => {
               className="title"
             >
               {' '}
-              We enable constant enterprise transformation at speed and scale
+              We prepare software engineering students for the international job market.
             </motion.span>
+
             <motion.span
               initial="offscreen"
               whileInView={'onscreen'}
               variants={desVariants}
               className="des"
             >
-              Immediate and 100% Guaranteed
+              We boast a 90% job placement rate
             </motion.span>
+            <motion.span
+              initial="offscreen"
+              whileInView={'onscreen'}
+              variants={titleVariants}
+              className="title"
+              style={{marginTop: '2rem'}}
+            >
+              {' '}
+              Onboarding
+            </motion.span>
+          
           </div>
 
           {/* Below Two Section Blocks */}
@@ -49,12 +61,13 @@ const WhatWeDo = () => {
               initial="offscreen"
               whileInView={'onscreen'}
               variants={titleVariants}
-              className="sec-title">Revenue</motion.span>
+              className="sec-title">Admissions Process
+              </motion.span>
               <motion.span
                initial="offscreen"
                whileInView={'onscreen'}
                variants={desVariants}
-              className="text">Web & Digital Marketing</motion.span>
+              className="text">We only pick top 5% of applicants</motion.span>
 
               <div className="block-features">
                 {features.slice(0, 3).map((feature, i) => (
@@ -81,14 +94,14 @@ const WhatWeDo = () => {
                initial="offscreen"
                whileInView={'onscreen'}
                variants={titleVariants}
-              className="sec-title">Repayment</motion.span>
+              className="sec-title">Pairing Process</motion.span>
               
               <motion.span
                initial="offscreen"
                whileInView={'onscreen'}
                variants={desVariants}
               className="text">
-                We create and manage your google and digital marketing
+                After admission you will be paired with a cohort based on
               </motion.span>
 
               <div className="block-features">
@@ -112,30 +125,77 @@ const WhatWeDo = () => {
           </div>
 
           {/* Support Block */}
+          <div className='support'>
+
+         
           <motion.div
           initial="offscreen"
           whileInView="onscreen"
           variants={containerVariants(0.3)}
           className="wwd-support">
             {/* Left Side */}
-            <div>
-              <span className="sec-title">Marketing Growth</span>
-              <span className="des">
-                Digital transformation and stack expertise to super power growth
-              </span>
+            <div className='wwd-text-left'>
+              <span className="sec-title">Full-Stack</span>
             </div>
 
             {/* Right Side */}
-            <div>
-              <span className="text">We are a certified Google Partner:</span>
+            <div className='wwd-text-right'>
+              <span className="text">Join our most prestigious Full-Stack Programe.</span>
               <span className="text">
-                We are a certified Google Partner: proven and winning
-                strategies, 100% guaranteed results, Improvement of existing
-                campaingns, Advertising optimization of text and image ads,
-                Guaranteed return on investment (ROI)
+              Code the Complete Experience: Full-Stack Mastery for Seamless Digital Innovation.
               </span>
             </div>
+  
+            <div className='wwd-image fs-image'>
+                      </div>
           </motion.div>
+          <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={containerVariants(0.3)}
+          className="wwd-support">
+            {/* Left Side */}
+            <div className='wwd-text-left'>
+              <span className="sec-title">Frontend</span>
+            </div>
+
+            {/* Right Side */}
+            <div className='wwd-text-right'>
+              <span className="text">Join our best in class Frontend programe.</span>
+              <span className="text">
+              Elevate User Experiences: Craft Aesthetically Brilliant Frontends with Expert Guidance.
+              </span>
+            </div>
+  
+            <div className='wwd-image fe-image'>
+                      </div>
+          </motion.div>
+
+          <motion.div
+          initial="offscreen"
+          whileInView="onscreen"
+          variants={containerVariants(0.3)}
+          className="wwd-support">
+            {/* Left Side */}
+            <div className='wwd-text-left'>
+              <span className="sec-title">Backend</span>
+              {/* <span className="des">
+                Digital transformation and stack expertise.
+              </span> */}
+            </div>
+
+            {/* Right Side */}
+            <div className='wwd-text-right'>
+              <span className="text">Join our most comprehensive Backend programe.</span>
+              <span className="text">
+              Unleash the Power Behind the Interface: Master Backend Development.
+              </span>
+            </div>
+  
+            <div className='wwd-image be-image'>
+                      </div>
+          </motion.div>
+          </div>
         </div>
       </div>
     </div>

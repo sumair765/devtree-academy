@@ -28,6 +28,8 @@
 
 }
 
+
+
 .od-features {
     display: flex;
     gap: 2rem;
@@ -48,8 +50,13 @@
 
 }
 
-.od-feature .text {
+.sec-title {
+    margin: auto;
+}
+
+.od-feature .text, .od-feature .sec-title {
     text-align: center;
+    justify-content: center;
 }
 
 @media (max-width: 990px) {

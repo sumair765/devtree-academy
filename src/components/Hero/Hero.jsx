@@ -90,13 +90,11 @@ const Hero = () => {
                 {/* Right Section */}
                 <div className='h-right'>
                     <div className='h-title'>
-                        <span>Managing How</span>
-                        <span>You grow your</span>
-                        <span>Digital Market</span>
+                        <span>Land a high paying job from anywhere.</span>
                     </div>
 
                     <div className='h-des'>
-                        Enjoy the benefits and advantages of the rational and scientific management of your company.
+                        Empower Your Software development Journey: Elevate Skills, Forge Success learning alongside an international community of students.
                     </div>
 
                     <EmailBox/>

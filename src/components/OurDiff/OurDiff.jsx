@@ -14,31 +14,29 @@ const OurDiff = () => {
         <div className="od-container">
           {/* Heading Section */}
           <div className="od-head">
-            <motion.span
+            {/* <motion.span
               initial="offscreen"
               whileInView={'onscreen'}
               variants={tagVariants}
               className="tag"
             >
               Concrete and Effective
-            </motion.span>
+            </motion.span> */}
             <motion.span
               initial="offscreen"
               whileInView={'onscreen'}
               variants={titleVariants}
-            className="title">
-              A real sales office available to companies and professionals to
-              face{' '}
+            className="title"
+            style={{marginBottom: '3rem'}}>
+             You'll have access to the best tools.{' '}
             </motion.span>
-            <motion.span
+            {/* <motion.span
               initial="offscreen"
               whileInView={'onscreen'}
               variants={desVariants}
             className="text">
-              The Digital Business Company is the perfect partner to relaunch
-              any type of business or enterprise through a 360deg consultancy
-              and assistance service.
-            </motion.span>
+              Highly competive programe that provides you the best resources.
+            </motion.span> */}
           </div>
 
           {/* feature */}

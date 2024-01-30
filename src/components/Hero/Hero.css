@@ -1,20 +1,26 @@
 .h-wrapper {
-    background-color: var(--primary-color);
+    background-color: rgba(14, 153, 46);
     height: 120vh;
     overflow:  hidden;
+    isolation: isolate;
+}
+
+ .h-container {
+    backdrop-filter: blur(3px);
+    border-radius: 30%;
+} 
+.h-wrapper::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background-image: url('../../../public/hero/hero-bg.jpg'); 
+    height: 120vh;
+    inset: 0;
+    opacity: .3;
 }
 
 .h-wrapper .container {
    padding-top: 8rem;
-}
-
-.h-arrow {
-    position: absolute;
-    top: 5rem;
-    width: 100%;
-    max-width: 60rem;
-    z-index: 0; 
-    opacity: 0.4;
 }
 
 .h-container {
@@ -52,6 +58,7 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
+    filter: sepia(.4) contrast(90%);
 
 }
 
@@ -63,7 +70,7 @@
 }
 
 .image-row > :nth-child(2) {
-  transform: translateY(-4rem);
+  transform: translateY(-6rem);
 }
 
 /*************Right Section*************/

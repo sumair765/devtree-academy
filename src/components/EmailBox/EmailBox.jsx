@@ -51,7 +51,7 @@ const EmailBox = () => {
            once: true,
          }}
         className='getFunded'>
-            Get Enterprisify Pro
+            Subscribe
         </motion.div>
     </motion.div>
   )

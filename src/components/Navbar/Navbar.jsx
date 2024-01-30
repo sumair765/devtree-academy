@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { BiMenuAltRight } from 'react-icons/bi';
+import { PiTreeFill } from "react-icons/pi";
 import { RxCross2 } from 'react-icons/rx';
 import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { Link } from 'react-scroll';
@@ -24,7 +25,7 @@ const Navbar = () => {
         <div className="n-container">
           {/* Left section */}
           <div className="n-logo">
-            <span>DevTree Academy</span>
+            <span><PiTreeFill /> DevTree Academy</span>
           </div>
           {/* Left section */}
           <div className="n-right">
@@ -36,7 +37,7 @@ const Navbar = () => {
                 <span>How it works</span>
               </Link>
               <Link to="wwi-wrapper" spy smooth>
-                <span>Admission Criteria</span>
+                <span>Our Alumni</span>
               </Link>
               <Link to="t-wrapper" spy smooth offset={100}>
                 <span>Testimonials</span>
@@ -51,7 +52,7 @@ const Navbar = () => {
       <div className="nm-container">
         {/* Logo */}
 
-        <span>DevTree Academy</span>
+        <span><PiTreeFill /> DevTree Academy</span>
 
         {/* Menu Icons */}
         {!mobileMenuOpened ? (
@@ -89,7 +90,7 @@ const Navbar = () => {
             spy
             smooth
           >
-            <span>Admission Criteria</span>
+            <span>Our Alumni</span>
           </Link>
 
           <Link
@@ -107,7 +108,7 @@ const Navbar = () => {
           
           
           
-          <div className="m-funded-button">Get Fund</div>
+          <div className="m-funded-button">Join DevTree</div>
         </div>
       </div>
     </div>

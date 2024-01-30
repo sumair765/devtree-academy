@@ -21,24 +21,11 @@ const Hero = () => {
         }
      })
 
-     const imgVariants = () => ({
-        initial: {
-            y: "18rem"
-        },
-        animate: {
-            y: "0rem",
-            transition: {
-                type: "spring",
-                duration: 2,
-                stiffness: 30
-            },
-        },
-     });
   return (
     <div className='h-wrapper'>
         <div className='container'>
 
-            <img src='hero/hero-arrow.png' alt='uparrow' className='h-arrow'/>
+            {/* <img src='hero/hero-bg.png' alt='uparrow' className='h-arrow'/> */}
 
             <div className='h-container'>
                 {/* Left Section */}
@@ -53,10 +40,7 @@ const Hero = () => {
                                      variants={variants(person.delay)}
                                      style={{backgroundColor: person.bg}}
                                      className='person-pill-bg'>
-                                        <motion.img
-                                         initial={"initial"}
-                                         animate={"animate"}
-                                         variants={imgVariants()}
+                                        <img
                                          src={person.src}
                                          alt={person.src}/>
                                      </motion.div>
@@ -74,10 +58,7 @@ const Hero = () => {
                                      variants={variants(person.delay)}
                                      style={{backgroundColor: person.bg}}
                                      className='person-pill-bg'>
-                                        <motion.img
-                                         initial={"initial"}
-                                         animate={"animate"}
-                                         variants={imgVariants()}
+                                        <img
                                          src={person.src}
                                          alt={person.src}/>
                                      </motion.div>

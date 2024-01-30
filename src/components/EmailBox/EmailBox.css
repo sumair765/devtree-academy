@@ -28,7 +28,7 @@
     position: absolute;
     right: 0.5rem;
     height: 80%;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;

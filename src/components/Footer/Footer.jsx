@@ -24,7 +24,7 @@ const Footer = () => {
                 <span>How it works</span>
               </Link>
               <Link to="wwi-wrapper" spy smooth>
-                <span>Who we invest in</span>
+                <span>Our Alumni</span>
               </Link>
               <Link to="t-wrapper" spy smooth offset={100}>
                 <span>Testimonials</span>

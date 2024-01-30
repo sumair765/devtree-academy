@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+
+
+# Devtree Academy Coding Bootcamp Website
+
+Welcome to the Devtree Academy Coding Bootcamp website! This repository houses the source code for our coding bootcamp's online platform.
+
+## Overview
+
+Devtree Academy is committed to providing an immersive and comprehensive coding education experience. This website serves as the central hub for students, instructors, and anyone interested in exploring our coding programs.
+
+
+![Screenshot from 2024-01-30 23-50-22](https://github.com/sumairq/devtree-academy/assets/60618877/6b550bea-2f53-44b3-a441-695c759ea673)
+
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/devtree-academy/coding-bootcamp-website.git
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +32,20 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the website locally.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome contributions from the community! If you find a bug or have an idea for improvement, please [create an issue](https://github.com/devtree-academy/coding-bootcamp-website/issues) or submit a pull request.
 
-## Learn More
+Before contributing, please review our [contribution guidelines](CONTRIBUTING.md).
 
-To learn more about Next.js, take a look at the following resources:
+## Feedback
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We value your feedback! If you have any questions, suggestions, or concerns, please reach out to us through the [issue tracker](https://github.com/devtree-academy/coding-bootcamp-website/issues).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🚀

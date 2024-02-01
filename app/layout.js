@@ -2,8 +2,8 @@ import './globals.css';
 import { Josefin_Sans } from '@next/font/google' 
 
 export const metadata = {
-  title: 'Enterprisify Pro',
-  description: 'Enterpise solutions that scale.',
+  title: 'DevTree Academy',
+  description: 'Land a high paying job from anywhere.',
 };
 
 const josef = Josefin_Sans({

@@ -37,9 +37,16 @@ Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
 ## Contributing
 
-We welcome contributions from the community! If you find a bug or have an idea for improvement, please [create an issue](https://github.com/devtree-academy/coding-bootcamp-website/issues) or submit a pull request.
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-Before contributing, please review our [contribution guidelines](CONTRIBUTING.md).
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request.
+P.S If you find a bug or have an idea for improvement, please [create an issue](https://github.com/devtree-academy/coding-bootcamp-website/issues) or submit a pull request.
+
+
 
 ## Feedback
 
@@ -48,5 +55,3 @@ We value your feedback! If you have any questions, suggestions, or concerns, ple
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-Happy coding! 🚀
